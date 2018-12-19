@@ -4,6 +4,15 @@ img{
    height: 100%;
 }
 
+#time{
+  float: right;
+  margin-left: 10%;
+}
+
+#TimeLeft{
+  float:left;
+}
+
 .btn-primary {
     color: #212529;
     background-color: #7cc;
