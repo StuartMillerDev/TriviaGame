@@ -3,10 +3,21 @@ img{
    width: 100%;
    height: 100%;
 }
+body{
+  background-image: url("http://i.imgur.com/CFjU41M.jpg");
+}
 
+h1,h2{
+
+}
+.container{
+  background-color: teal;
+}
+.card{
+  margin-top:15px
+}
 #time{
-  float: right;
-  margin-left: 10%;
+  
 }
 
 #TimeLeft{

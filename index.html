@@ -6,57 +6,45 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="car card-default">
-          <div class="card-header">
-            <div class="card-title">
-              <h3>TRIVIA</h3>
-            </div>
-          </div>
-        </div>
+    <div class="jumbotron jumbotron-fluid text-center">
+      <h1 class="display-4">TOTAL TRIVIA</h1>
+      <hr class="my-4">
+      <p class="lead">Quickly answer questions before time runs out!</p>
+      <br>
+      <div id="time"></div>
+    </div>
+    <div class="container text-center">
+      <h2>Questions</h2>
+
+      <div class="card card-default">
+        Why is a duck?
         <div class="card-body">
-          <!-- trivia question here -->
-          <h3 id="question">Question here</h3>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="card default">
-          <div class="card-body">
-            <div class="btn-group">
-              <ul>
-                <li ><button type="button" class="btn btn-primary" name="button">1</button><p id="0">some Answer</p></li>
-                <li ><button type="button" class="btn btn-primary" name="button">2</button><p id="1">some Answer</p></li>
-                <li ><button type="button" class="btn btn-primary" name="button">3</button><p id="2">some Answer</p></li>
-                <li ><button type="button" class="btn btn-primary" name="button">4</button><p id="3">some Answer</p></li>
-              </ul>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Because it has flat feet</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Because it quacks</label>
+              </div>
             </div>
           </div>
         </div>
-        <div class="card default">
-          <div class="card-body">
-            <h2 id="TimeLeft">TIME LEFT:</h2> <h3 id="time">00:00</h3>
-          </div>
-        </div>
       </div>
-    </div>
-<div class="row">
-  <div class="col-lg-12">
-    <div id="backgroundPic">
-    <img src="assets/img/b1.jpg" alt="b1">
 
+      
 
     </div>
+  <div id="root">
+
+
+
   </div>
-
-</div>
-
 <script type="text/javascript" src="assets/js/game.js">
 
 </script>
